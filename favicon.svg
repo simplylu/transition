@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" role="img" aria-label="red rose favicon">
+  <!-- Simple red rose on transparent background -->
+  <!-- petals -->
+  <g transform="translate(32,26)">
+    <path d="M0 -10
+             C6 -12 12 -8 12 -2
+             C12 4 6 8 0 6
+             C-6 8 -12 4 -12 -2
+             C-12 -8 -6 -12 0 -10 Z" fill="#e53935"/>
+    <path d="M-2 -4
+             C2 -6 6 -4 4 0
+             C2 4 -2 6 -4 2
+             C-6 -2 -4 -2 -2 -4 Z" fill="#c62828"/>
+    <circle cx="2" cy="-2" r="1.6" fill="#ff6b6b"/>
+  </g>
+
+  <!-- stem -->
+  <path d="M32 36 C30 38 30 44 34 46 L34 52" stroke="#2e7d32" stroke-width="3" stroke-linecap="round" fill="none" />
+  <!-- left leaf -->
+  <path d="M30 40 C24 38 22 44 28 44" fill="#2e7d32" />
+  <!-- right leaf -->
+  <path d="M36 40 C42 38 44 44 38 44" fill="#2e7d32" />
+</svg>
