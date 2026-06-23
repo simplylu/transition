@@ -50,7 +50,8 @@ async function init(){
       if(image && isComplete){
         const img = document.createElement('img');
         img.src = image;
-        img.alt = `Image source: ${image}`;
+        const altFromJson = item.alt ? String(item.alt) : '';
+        img.alt = altFromJson || title || `Image source: ${image}`;
         img.loading = 'lazy';
         media.appendChild(img);
       } else {
